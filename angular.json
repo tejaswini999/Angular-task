@@ -8,15 +8,11 @@
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
-<<<<<<< HEAD
-      "schematics": {},
-=======
       "schematics": {
         "@schematics/angular:component": {
           "styleext": "scss"
         }
       },
->>>>>>> cdebe6e9be4f9413acc5eb15233ebf085bdee26d
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -31,11 +27,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.css"
-=======
               "src/styles.scss"
->>>>>>> cdebe6e9be4f9413acc5eb15233ebf085bdee26d
             ],
             "scripts": [],
             "es5BrowserSupport": true
